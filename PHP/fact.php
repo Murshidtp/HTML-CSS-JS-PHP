@@ -2,7 +2,7 @@
 $num = 3;
 $factorial = 1;
 
-for ($x=$num; $x>=1; $x--)
+for ($x=1; $x<=$num; $x++)
 {
     $factorial = $factorial * $x;
 }
